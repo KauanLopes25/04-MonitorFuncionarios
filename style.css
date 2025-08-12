@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.monitor div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+.monitor div img {
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+}
